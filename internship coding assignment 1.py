@@ -20,7 +20,7 @@ def open_file(fname):
             row_no+=1
             
     my_xls.save(r"C:\Users\home\Documents\Python-Programs\results.xls")
-    
+    doc.close()
     return()
 
 
